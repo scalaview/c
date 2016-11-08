@@ -1,0 +1,3 @@
+Read and Write are so important, implementors of the two traits have a nickname: readers and writers. So you'll sometimes see 'a reader' instead of 'a type that implements the Read trait'. Much easier!
+
+Beyond that, there are two important traits that are provided: Seek and BufRead. Both of these build on top of a reader to control how the reading happens. Seek lets you control where the next byte is coming from:
