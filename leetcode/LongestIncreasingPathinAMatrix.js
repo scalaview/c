@@ -1,3 +1,5 @@
+//递归  https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+
 var longestIncreasingPath = function(matrix) {
     var result = [],
         path = matrix.map(function(e){return new Array(e.length) });
@@ -69,5 +71,11 @@ var longestIncreasingPath = function(matrix) {
     }
 
     return result.length;
+
+};
+
+
+var longestIncreasingPath = function(matrix) {
+
 
 };
